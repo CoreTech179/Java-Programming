@@ -1,6 +1,39 @@
 public class Main {
 
     public static void main(String[] args) {
+
+        /*
+            Before Understanding the structure of the java program let's understand some concepts before that was asked me at the time of interview!
+
+            Q. What is JDK, JRE and JVM ?
+
+            1. JDK stands for Java Development Kit. It internally contains JRE & JVM where JRE stands for Java Runtime Environment and JVM stands for Java Virtual Machine. Basically JDK provides all the neccessary tools which is required to work with the java language.
+
+            2. JRE stands for Java Runtime Environment. Basically it provides an environment to execute the java programm. It internally contains JVM which is responsible to execute the java programm.
+
+            3. JVM stands for Java Virtual Machine. Basically it is a software in the form of an interpreter which is written in C language through which we can execute our java programm.
+
+            Q. Why Java is your preffered programming language ?
+
+            ->I choose Java as my preffered programming language because Java is a platform independent programming language. 
+
+            ->Platform independent programming language means we can run our Java programms on any kind of OS (either it is a Windows OS, Ubuntu OS or mac OS) without any kind of modifications.  
+            
+            -> If we compare Java with C++ or python then C++ required different compilations at different systems. Similary in case of python also we need to install various dependencies as a result there may be some compatibility issues may arise so that is the reason I choose Java as my preferred language.
+
+            Q. Whta is JIT ? 
+            Full form of JIT is Just In Time Compiler in java and it is a part of the JVM. It compiles the bytecode into the machine code (i.e. 0 & 1 format) at the runtime. 
+            During runtime if a particular method is using frequently than that method will be compiled once and kept into the memory.
+
+
+            Q. What are the 3 features of Java ?
+            1. Java is a platform independent programming language.
+            2. Since Java is a Object oriented programming language as a result it makes the code more modular and reuseable.
+            3. Java automatically performs memory management such that to reduce memeory loss.
+
+         */
+
+
         /* Understanding the structure of Java programm
 
         1. Everything is written inside a class.
